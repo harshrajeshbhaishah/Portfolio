@@ -63,8 +63,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          These projects were developed during my time with the City of Calgary
-          and through academic initiatives. They demonstrate my skills in data
+          These projects were developed during my time with the City of Calgary. They demonstrate my skills in data
           automation, analytics, and low-code app development using the Microsoft Power Platform.
         </motion.p>
       </div>

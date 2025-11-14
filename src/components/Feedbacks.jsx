@@ -18,10 +18,12 @@ const FeedbackCard = ({
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className="bg-primary p-10 rounded-3xl xs:w-[320px] w-full shadow-lg shadow-black/30"
   >
-    <p className="text-white font-black text-[48px]">"</p>
+    {/* ❌ removed the quotation line */}
 
     <div className="mt-1">
-      <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+      <p className="text-white tracking-wider text-[18px] leading-[28px]">
+        {testimonial}
+      </p>
 
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">
@@ -45,9 +47,7 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    // whole block purple
     <div className="mt-12 bg-tertiary rounded-[20px]">
-      {/* top area (same purple, just padding) */}
       <div className={`${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>COMMUNITY</p>
@@ -55,10 +55,7 @@ const Feedbacks = () => {
         </motion.div>
       </div>
 
-      {/* cards overlap upward */}
-      <div
-        className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}
-      >
+      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
         {testimonials.map((item, index) => (
           <FeedbackCard key={item.name} index={index} {...item} />
         ))}

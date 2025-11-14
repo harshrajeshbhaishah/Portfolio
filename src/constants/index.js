@@ -125,7 +125,7 @@ const experiences = [
     ],
   },
   {
-    title: "Guest Services Associate",
+    title: "Casino Dealer",
     company_name: "Cowboys Casino",
     icon: cowboy,
     iconBg: "#383E56",
@@ -170,7 +170,7 @@ const testimonials = [
   {
     testimonial:
       "Participated in cricket events and fundraisers; assisted with organizing matches and promoting the sport on campus.",
-    name: "UCCA — Ucalgary Cricket Club Association",
+    name: "Ucalgary Cricket Club Association",
     designation: "Vice President",
     company: "University of Calgary",
     image: "https://randomuser.me/api/portraits/lego/3.jpg",

@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import logo2 from "./logo2.png";
+import logo3 from "./logo3.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -45,6 +46,7 @@ import share from "./share.jpg";
 export {
   logo,
   logo2,
+  logo3,
   backend,
   creator,
   mobile,
